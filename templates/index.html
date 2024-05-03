@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTROLE DE ESTOQUE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>FUNÇÕES</h1>
+    </header>
+    <main>
+        <h2>O que deseja fazer ?</h2>
+        
+        <ul id="usuarios-list"></ul>
+            <button onclick="lerUsuarios()">Ver Usuários</button>
+            <!-- <button onclick="criarNovoUsuario()">Criar Novo Usuário</button>
+            <button onclick="editarUsuario()">Editar Usuário</button>
+            <button onclick="deletarUsuario()">Deletar um Usuário</button> -->
+        </ul>
+
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

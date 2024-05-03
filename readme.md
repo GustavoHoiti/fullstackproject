@@ -1,0 +1,5 @@
+- localhost/usuarios (GET)
+- localhost/usuarios (POST)
+- localhost/usuarios/id (GET)
+- localhost/usuarios/id (PUT)
+- localhost/usuarios/id (DELETE)
